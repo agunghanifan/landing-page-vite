@@ -13,7 +13,7 @@ function SwitcherTheme() {
 
   return (
     <div>
-      <DarkModeSwitch checked={darkSide} onChange={toggleDarkMode} size={20}/>
+      <DarkModeSwitch checked={darkSide} onChange={toggleDarkMode} size={20} moonColor='black'/>
     </div>
   );
 }
